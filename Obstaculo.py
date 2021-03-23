@@ -5,13 +5,13 @@ import glfw
 class Obstaculo:
 
     posicionX = 0.0
-    posicionY = 0.6
+    posicionY = 0.0
     vivo = True
 
     def __init__(self, x, y):
         
         self.posicionX = x
-        self.posicionX = y
+        self.posicionY = y
 
     def dibujar(self):
 
